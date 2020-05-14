@@ -1,5 +1,5 @@
 target := build/boot-snake
-assembly_source_files := $(wildcard src/*.as)
+assembly_source_files := $(wildcard src/*.S)
 
 .PHONY: all clean run
 
